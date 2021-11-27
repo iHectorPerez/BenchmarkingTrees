@@ -1,0 +1,31 @@
+#!/bin/bash
+
+mkdir bin
+
+for number in 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36
+do
+
+cd ./NotConcurrent_Thread$number/
+
+echo "Building binary for thread $number ..."
+mkdir build
+cd build
+cmake ..
+make -j
+cd ..
+cd ..
+cp ./NotConcurrent_Thread$number/build/benchmark_thread_$number ./bin/benchmark_thread_$number
+
+done
+
+echo "Building binary for concurrent threads..."
+cd ./Concurrent/
+mkdir build
+cd build
+cmake ..
+make -j
+cd ..
+cd ..
+cp ./Concurrent/build/benchmark_concurrent ./bin/benchmark_concurrent
+
+exit 0
