@@ -2,4 +2,3 @@ taskset -a -c 0 /optane-data/hperez6/BenchmarkingTrees/binaries/benchmark_thread
 taskset -a -c 1 /optane-data/hperez6/BenchmarkingTrees/binaries/benchmark_thread_01 -t 0 -n 1 -d 30 -b 6
 taskset -a -c 2 /optane-data/hperez6/BenchmarkingTrees/binaries/benchmark_thread_02 -t 0 -n 1 -d 30 -b 6
 taskset -a -c 3 /optane-data/hperez6/BenchmarkingTrees/binaries/benchmark_thread_03 -t 0 -n 1 -d 30 -b 6
-taskset -a -c 4 /optane-data/hperez6/BenchmarkingTrees/binaries/benchmark_thread_04 -t 0 -n 1 -d 30 -b 6
