@@ -442,7 +442,7 @@ class Btree : public Index<K, V, size>
             root = anchor;
             printf("new NVTree\n");
         }else{
-            assert(0);
+            //assert(0);
         }
     }
 
