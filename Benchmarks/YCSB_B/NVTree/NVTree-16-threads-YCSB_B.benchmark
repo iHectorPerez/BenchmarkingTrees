@@ -1,0 +1,16 @@
+taskset -a -c 0 ./binaries/benchmark_thread_00 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 1 ./binaries/benchmark_thread_01 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 2 ./binaries/benchmark_thread_02 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 3 ./binaries/benchmark_thread_03 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 4 ./binaries/benchmark_thread_04 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 5 ./binaries/benchmark_thread_05 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 6 ./binaries/benchmark_thread_06 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 7 ./binaries/benchmark_thread_07 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 8 ./binaries/benchmark_thread_08 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 9 ./binaries/benchmark_thread_09 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 10 ./binaries/benchmark_thread_10 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 11 ./binaries/benchmark_thread_11 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 12 ./binaries/benchmark_thread_12 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 13 ./binaries/benchmark_thread_13 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 14 ./binaries/benchmark_thread_14 -t 0 -n 1 -d 60 -b 6
+taskset -a -c 15 ./binaries/benchmark_thread_15 -t 0 -n 1 -d 60 -b 6

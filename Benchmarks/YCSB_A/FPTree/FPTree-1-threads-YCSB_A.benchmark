@@ -1,0 +1,1 @@
+taskset -a -c 0 ./binaries/benchmark_thread_00 -t 1 -n 1 -d 60 -b 5
